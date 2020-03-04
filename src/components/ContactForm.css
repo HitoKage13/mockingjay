@@ -1,0 +1,14 @@
+.contact-container {
+    border-style: solid;
+    display: inline-block;
+    padding: 1em;
+}
+
+.input-box {
+    width: 500px;
+}
+
+.message-box {
+    width: 500px;
+    height: 100px;
+}
