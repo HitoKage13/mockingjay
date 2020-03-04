@@ -27,7 +27,7 @@ export const cards = [
         text: `The very website you are on!`,
         skills: ["JavaScript", "React.js"],
         github: "https://github.com/HitoKage13/web-portfolio",
-        website: "http://hitokage13.github.io"
+        website: "https://hitokage13.github.io/web-portfolio/"
     },
     {
         title: "UNSW CSE Revue (President / Producer)",
