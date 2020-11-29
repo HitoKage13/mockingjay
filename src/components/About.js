@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import './About.css';
+import '../styles/About.css';
 
 export default function About() {
     const [checked, setChecked] = useState(false);

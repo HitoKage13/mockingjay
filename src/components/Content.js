@@ -3,12 +3,13 @@ import About from '../components/About';
 import ContactForm from '../components/ContactForm';
 import Projects from '../components/Projects';
 import Snapshots from '../components/Snapshots';
-import './Content.css';
+import '../styles/Content.css';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import { icons } from "../data/icons";
 import { photos } from "../data/photos";
 import { cards } from "../data/cards";
+import BlogPost from './BlogPost';
 
 
 const slider = (
@@ -26,7 +27,8 @@ export default class Content extends React.Component {
             <div className="content-container">
                 <div id="home">{slider}</div>
                 <div id="about"><About /></div>
-                <div id="snapshots"><Snapshots photos={photos} /></div>
+                {/* <div id="blog"><BlogPost></BlogPost></div> */}
+                {/* <div id="snapshots"><Snapshots photos={photos} /></div> */}
                 <div id="projects"><Projects cards={cards} icons={icons} /></div>
                 {/* <div id="contact"><ContactForm /></div> */}
             </div>

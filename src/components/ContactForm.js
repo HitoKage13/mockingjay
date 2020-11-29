@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import './ContactForm.css';
+import '../styles/ContactForm.css';
 
 export default class ContactForm extends React.Component {
     constructor(props) {
