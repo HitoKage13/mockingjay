@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import Tooltip from '@material-ui/core/Tooltip';
 // import Fade from '@material-ui/core/Fade';
 import Slide from '@material-ui/core/Slide';
-import './Projects.css';
+import '../styles/Projects.css';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -43,7 +43,7 @@ export default function Projects(props) {
                 <Slide direction={key % 2 ? "left" : "right"} in={checked} mountOnEnter unmountOnExit timeout={{ enter: 1000 }}>
                     <div className="projects-container">
                         <Paper elevation={4} className="projects-item">
-                            <Typography component="img" src={project.thumbnail} style={{ height: '20%', width: '20%' }}/>
+                            <Typography component="img" src={project.thumbnail} className="projects-image"/>
                             <Typography variant="h4" component="h4" style={{ color: 'black', fontFamily: 'Frutiger' }}>
                                 {project.title}
                             </Typography>

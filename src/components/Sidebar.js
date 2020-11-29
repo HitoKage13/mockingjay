@@ -11,7 +11,7 @@ import ListItem from '@material-ui/core/ListItem';
 import MenuIcon from '@material-ui/icons/Menu';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import './Sidebar.css';
+import '../styles/Sidebar.css';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Scrollspy from 'react-scrollspy'
 
@@ -72,7 +72,7 @@ function Sidebar(props) {
         { title: 'Contact', tag: '#contact' }
     ] */
 
-    const menu = ['home', 'about', 'snapshots', 'projects', 'contact']
+    const menu = ['home', 'about', 'blog', 'snapshots', 'projects', 'contact']
 
     const drawer = (
         <div>
@@ -89,6 +89,11 @@ function Sidebar(props) {
                         About
                     </Typography>
                 </a>
+                {/* <a href='#blog'>
+                    <Typography button className="nav-text">
+                        Blog
+                    </Typography>
+                </a> */}
                 <a href='#snapshots'>
                     <Typography button className="nav-text">
                         Snapshots
@@ -145,7 +150,7 @@ function Sidebar(props) {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Typography variant="h4" style={{ color: 'black', fontFamily: 'Frutiger' }} noWrap>
+                    <Typography variant="h4" style={{ color: 'black', fontFamily: '-apple-system' }} noWrap>
                         Jeremy Lim
                     </Typography>
                 </Toolbar>

@@ -22,7 +22,7 @@ export const cards = [
         website: ""
     },
     {
-        title: "Portfolio website",
+        title: "Mockingjay",
         thumbnail: "",
         text: `The very website you are on!`,
         skills: ["JavaScript", "React.js"],
