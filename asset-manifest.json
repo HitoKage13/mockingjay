@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/web-portfolio/static/css/main.7f633409.chunk.css",
-    "main.js": "/web-portfolio/static/js/main.73bffd40.chunk.js",
-    "main.js.map": "/web-portfolio/static/js/main.73bffd40.chunk.js.map",
-    "runtime-main.js": "/web-portfolio/static/js/runtime-main.96738ecf.js",
-    "runtime-main.js.map": "/web-portfolio/static/js/runtime-main.96738ecf.js.map",
-    "static/css/2.cd67af34.chunk.css": "/web-portfolio/static/css/2.cd67af34.chunk.css",
-    "static/js/2.de17aa97.chunk.js": "/web-portfolio/static/js/2.de17aa97.chunk.js",
-    "static/js/2.de17aa97.chunk.js.map": "/web-portfolio/static/js/2.de17aa97.chunk.js.map",
-    "index.html": "/web-portfolio/index.html",
-    "precache-manifest.2175ef8d362508c3db4393f21294296c.js": "/web-portfolio/precache-manifest.2175ef8d362508c3db4393f21294296c.js",
-    "service-worker.js": "/web-portfolio/service-worker.js",
-    "static/css/2.cd67af34.chunk.css.map": "/web-portfolio/static/css/2.cd67af34.chunk.css.map",
-    "static/css/main.7f633409.chunk.css.map": "/web-portfolio/static/css/main.7f633409.chunk.css.map",
-    "static/js/2.de17aa97.chunk.js.LICENSE": "/web-portfolio/static/js/2.de17aa97.chunk.js.LICENSE"
+    "main.css": "/mockingjay/static/css/main.df608cd0.chunk.css",
+    "main.js": "/mockingjay/static/js/main.86542b42.chunk.js",
+    "main.js.map": "/mockingjay/static/js/main.86542b42.chunk.js.map",
+    "runtime-main.js": "/mockingjay/static/js/runtime-main.836dfaa7.js",
+    "runtime-main.js.map": "/mockingjay/static/js/runtime-main.836dfaa7.js.map",
+    "static/css/2.cd67af34.chunk.css": "/mockingjay/static/css/2.cd67af34.chunk.css",
+    "static/js/2.b133b665.chunk.js": "/mockingjay/static/js/2.b133b665.chunk.js",
+    "static/js/2.b133b665.chunk.js.map": "/mockingjay/static/js/2.b133b665.chunk.js.map",
+    "index.html": "/mockingjay/index.html",
+    "precache-manifest.e1170efd8646b3bcc30cd9f19ae9b2c6.js": "/mockingjay/precache-manifest.e1170efd8646b3bcc30cd9f19ae9b2c6.js",
+    "service-worker.js": "/mockingjay/service-worker.js",
+    "static/css/2.cd67af34.chunk.css.map": "/mockingjay/static/css/2.cd67af34.chunk.css.map",
+    "static/css/main.df608cd0.chunk.css.map": "/mockingjay/static/css/main.df608cd0.chunk.css.map",
+    "static/js/2.b133b665.chunk.js.LICENSE": "/mockingjay/static/js/2.b133b665.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.96738ecf.js",
+    "static/js/runtime-main.836dfaa7.js",
     "static/css/2.cd67af34.chunk.css",
-    "static/js/2.de17aa97.chunk.js",
-    "static/css/main.7f633409.chunk.css",
-    "static/js/main.73bffd40.chunk.js"
+    "static/js/2.b133b665.chunk.js",
+    "static/css/main.df608cd0.chunk.css",
+    "static/js/main.86542b42.chunk.js"
   ]
 }
